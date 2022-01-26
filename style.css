@@ -1,1 +1,45 @@
+body {
+	margin: 0;
+	padding: 2em;
+	box-sizing: border-box;
+	background-color: rgb(131, 246, 100);
+}
 
+form {
+	text-align: center;
+	height: 87vh;
+	border: 2px solid white;
+}
+
+input[type=text]::placeholder  {
+	color: green;
+}
+
+input[type=text]  {
+	width: 100%;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	padding: 2em;
+	text-align:center;
+	color: green;
+	font-size: 1em;
+	font-family: serif;
+}
+
+input[type=button], input[type=reset]   {
+	border: 1px solid green;
+	border-radius: 5px;
+	padding: .5em;
+	text-align:center;
+	background-color: transparent;
+	color: green;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+input[type=button]:hover, input[type=reset]:hover {
+	background-color: green;
+	color: white;
+	transition: all 400ms;
+}
